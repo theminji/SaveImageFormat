@@ -1,3 +1,5 @@
+# I WILL UPDATE THIS PAGE WHEN THE EXTENSION GETS APPROVED ON THE FIREFOX ADDON STORE
+
 # Save Image as Format
 
 ![Save Image as Format context menu](assets/main_image.png)
