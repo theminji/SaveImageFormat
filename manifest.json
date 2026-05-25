@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Save Image as Format",
+  "version": "1.0.0",
+  "description": "Convert an image locally in Firefox and download it as PNG, JPEG, WebP, GIF, AVIF, or BMP.",
+  "permissions": [
+    "menus",
+    "contextMenus",
+    "downloads",
+    "notifications",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "save-image-as-format@example.local",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      },
+      "strict_min_version": "109.0"
+    }
+  }
+}
