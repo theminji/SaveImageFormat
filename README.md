@@ -1,4 +1,4 @@
-# I WILL UPDATE THIS PAGE WHEN THE EXTENSION GETS APPROVED ON THE FIREFOX ADDON STORE
+https://addons.mozilla.org/en-US/firefox/addon/save-image-as-format/
 
 # Save Image as Format
 
@@ -24,6 +24,8 @@ I (codex) made this extension because I was tired of downloading corrupted image
 JPEG, GIF, and BMP do not support full alpha transparency, so transparent pixels are flattened onto white (#FFFFFF).
 
 Animated images are saved as the first decoded frame because browser canvas export is still-image based. GIF export creates a single-frame GIF. AVIF export uses Firefox's built-in canvas encoder and will show an error if the current Firefox build does not support `image/avif` export.
+
+You can find the addon here: https://addons.mozilla.org/en-US/firefox/addon/save-image-as-format/
 
 Feel free to give this repo a star if it made your life better! I want this to spread to as many people as I can to help!
 
